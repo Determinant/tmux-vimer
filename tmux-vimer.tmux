@@ -33,10 +33,6 @@ tmux set -g escape-time 10
 
 # List of plugins
 tmux set -g @plugin 'tmux-plugins/tpm'
-tmux set -g @plugin 'Determinant/tmux-colortag'
-tmux set -g @plugin 'tmux-plugins/tmux-resurrect'
-tmux set -g @plugin 'tmux-plugins/tmux-sensible'
-tmux set -g @plugin 'tmux-plugins/tmux-yank'
 tmux set -g @resurrect-strategy-nvim 'session'
 tmux set -g @resurrect-capture-pane-contents 'on'
 tmux set -g @resurrect-processes 'ssh'
