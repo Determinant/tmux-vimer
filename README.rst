@@ -1,3 +1,3 @@
 ::
 
-  curl -sS https://raw.githubusercontent.com/Determinant/tmux-colortag/master/bootstrap.sh | bash
+  curl -sS https://raw.githubusercontent.com/Determinant/tmux-vimer/master/bootstrap.sh | bash
