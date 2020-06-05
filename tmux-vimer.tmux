@@ -3,7 +3,6 @@
 tmux set-option -g prefix C-]
 tmux set-option -g default-terminal "screen-256color"
 tmux set-option -gs terminal-overrides ',*-256color:Tc'
-tmux set-option -g default-shell /usr/bin/fish
 tmux set-window-option -g mode-keys vi
 tmux bind-key -Tcopy-mode-vi 'v' send -X begin-selection
 tmux bind-key -Tcopy-mode-vi 'y' send -X copy-selection
